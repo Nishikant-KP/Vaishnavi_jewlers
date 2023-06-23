@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="clickHandler"
+            type="com.example.vaishnavi_jewllers.BillActivity.ClickHandler" />
+    </data>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BillActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/d_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diamond Cost:"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/d_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/r_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ruby Cost:"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/r_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/p_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pearl Cost:"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/p_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/e_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emerald Cost:"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/e_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/M_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Making Cost:"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/m_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/g_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gold Cost:"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/g_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/t_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Cost:"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/t_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Back"
+                android:textStyle="bold"
+                android:onClick="@{clickHandler::onBack}"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
